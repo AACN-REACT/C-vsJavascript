@@ -4,10 +4,13 @@ Some notes on the differences between two languages
 
 ## Preface
 
-This is primarliy written for my own benefit, in order to organise my learning of C# and .NET. 
-I hope that my learning of C# is aided by comparing it to something I am already familiar with, ie. javascript.
-It may well be that those looking to go the other way may find some value in these notes.
-It is not meant as an authoritive reference for the subject and should not be treated as such.
-For the same reason the orgainsition and ordering of these notes may appear haphazard.
+<p>This is primarliy written for my own benefit, to help organise my learning of C# and .NET. </p>
+
+<p>I hope that my learning of C# is aided by comparing it to something I am already familiar with, ie. javascript.</p>
+<p>It may well be that those looking to go the other way may find some value in these notes.</p>
+It is not meant as an authoritive reference on the subject and should not be treated as such.
+On the contrary: this will be full of mistakes and inaccuracies.
+The orgainsition and ordering of these notes may appear haphazard.
+<p>Nothwithstanding, I hope any one else who has stumbled upon these notes finds something of value in them</p>
 I shall try as much as possible to keep the style light, jargon-free and informative.
 
