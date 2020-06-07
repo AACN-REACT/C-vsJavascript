@@ -15,3 +15,17 @@ The orgainsition and ordering of these notes may appear haphazard.
 <p>Nothwithstanding, I hope any one else who has stumbled upon this work manages to glean some insight or knowledge from it.</p>
 
 
+## Runtimes
+
+<p>Ofcourse we wouldnt be able to compare the languages without also taking into account the systems that run them.
+By that I mean their respective runtimes, the platforms which execute the code. This brings us to the first major difference between the two.</p>
+
+<p>C# runs on .NET Standard compliant frameworks, this includes </p>
+<ul>
+<li> .NET framework </li>
+<li> .NET core </li>
+<li> Xamarin</li>
+<li> Mono</li>    
+</ul>
+
+  
