@@ -28,7 +28,7 @@ By that I mean their respective runtimes, the platforms which execute the code. 
 <li> Mono</li>    
 </ul>
 
-<p>Javascript runs on primarily on web browsers, and NodeJS can be installed directly on to a OS while running on chrome's v8 engine , javascript engines can be implemented on many devices and environments</p>
+<p>Javascript runs on primarily on web browsers. It is also used in NodeJS which can be installed directly on to a OS utilizing chrome's v8 engine , javascript engines can be implemented on many devices and environments</p>
 
 
 <p>Both these languages are afforded cross-platform ubiquity, appearing on multiple operating systems. 
@@ -38,5 +38,10 @@ However, neither language can be run on the other's runtime. C# will not run on 
 <p> While C# follows a standard, and is maintained by Microsoft, Javascript proves to be a little more complicated. </p>
 <p>There are almost as many flavours of Javascript as there are JS engines. And this led to wildly differing implementations in its early years. Some semblance of uniformity was established when various interested parties decided to get the language standardized through the standards body 'ECMA' and now it has a official specification otherwise known as ECMAscript</p>
 
-<p>For pratical reasons we shall limit ourselves to comparing C# latest version, 8 -  with ECMAscript 2015, otherwise known as 'ECMAscript 6', probably the most widely implemented specification </p>
+<p>For pratical reasons we shall limit ourselves to comparing C# latest version, 8 -  with ECMAscript 2015, otherwise known as 'ES 6', probably the most widely implemented specification </p>
 <P>I hope to include relevant information about later versions of the ECMAscript standard when deemed appropiate</p>
+
+
+** TYPES
+
+ C# is a statically typed language and dependent on .NET CLR (Common Language Runtime ) 
