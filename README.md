@@ -45,3 +45,4 @@ However, neither language can be run on the other's runtime. C# will not run on 
 ** TYPES
 
  C# is a statically typed language and dependent on .NET CLR (Common Language Runtime ) 
+ Types can be defined as different data-structures: classes; structs; enums; delegates; interfaces
