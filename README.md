@@ -42,7 +42,7 @@ However, neither language can be run on the other's runtime. C# will not run on 
 <P>I hope to include relevant information about later versions of the ECMAscript standard when deemed appropiate</p>
 
 
-** TYPES
+## TYPES
 
  C# is a statically typed language and dependent on .NET CLR (Common Language Runtime ) 
  Types can be defined as different data-structures: classes; structs; enums; delegates; interfaces
