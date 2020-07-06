@@ -46,3 +46,13 @@ However, neither language can be run on the other's runtime. C# will not run on 
 
  C# is a statically typed language and dependent on .NET CLR (Common Language Runtime ) 
  Types can be defined as different data-structures: classes; structs; enums; delegates; interfaces
+ 
+<br/>
+ 
+ ## COMPILATION
+ 
+ ### C#
+ <p>C# uses the Roselyn Compiler which is provided as part of the .NET Core SDK, and Visual Studio 2015 which means if you have .NET Core installed on your machine it will 
+ include the Roselyn Compiler. Bear in mind that it is not included with .NET framework which uses an older compiler.</p>
+ <p> Roselyn, unlike the older c# compiler , is open-source and extendable</p>
+ 
