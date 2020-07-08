@@ -56,3 +56,12 @@ However, neither language can be run on the other's runtime. C# will not run on 
  include the Roselyn Compiler. Bear in mind that it is not included with .NET framework which uses an older compiler.</p>
  <p> Roselyn, unlike the older c# compiler , is open-source and extendable</p>
  
+ Roselyn will take the source code and compile it down to a CIL (Common Intermeidate Language), otherwise known as an 'assembly'. The assembly will have an extension of *.dll*
+ or _.exe_ . The CLR (Commonn Language Runtime) further uses a technique of _Just-In-Time_(JIT) compilation at runtime to convert the CIL into machine code. The JIT compiler may perform optimizations of the code as well as only compiling the code when needed.
+ 
+ 
+ ### Javascript
+ 
+ Javascript is known as an _interpreted_ language rather than a compiled language. The transformation of the source code happens at runtime.
+ <p>As we mentioned, there are a multitude of Javascript runtimes, that are otherwise be known as Javscript Engines.</p>
+ H
