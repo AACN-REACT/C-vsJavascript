@@ -64,4 +64,5 @@ However, neither language can be run on the other's runtime. C# will not run on 
  
  Javascript is known as an _interpreted_ language rather than a compiled language. The transformation of the source code happens at runtime.
  <p>As we mentioned, there are a multitude of Javascript runtimes, that are otherwise be known as Javscript Engines.</p>
- H
+<p>Most of the popular browsers implement their own javascript engine</p>
+ <p>These days most engines work along similar lines that they use a combination of an interpretor and an compiler</p>
