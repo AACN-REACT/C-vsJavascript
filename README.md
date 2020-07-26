@@ -45,7 +45,15 @@ However, neither language can be run on the other's runtime. C# will not run on 
 ## TYPES
 
  C# is a statically typed language and dependent on .NET CLR (Common Language Runtime ) 
- Types can be defined as different data-structures: classes; structs; enums; delegates; interfaces
+ Types can be defined as different data-structures: classes; structs; enums; delegates; interfaces.
+ Its primitive types, passed by value are: **int, object, short, char, float, double, char and bool**
+ All types are in fact basically _object_ data structures and the primitive types are implemented as _structs_ 
+ 
+ Javascript is dynamically typed: its types are established at runtime, although this gives less protection when authoring your code it does allow
+ dynamic addition and deletion of object properties. It has 6 primitive types: **string, number, bigint, boolean, undefined, and symbol.**
+ These primitive types are passed by value but are converted to equivalent objects when running methods on them.
+ eg.
+  **let x = 1234 ; x.toString()**  // "1234"   _x is read as a Number object and its 'toString' method is called to return "1234"_
  
 <br/>
  
@@ -66,3 +74,9 @@ However, neither language can be run on the other's runtime. C# will not run on 
  <p>As we mentioned, there are a multitude of Javascript runtimes, that are otherwise be known as Javscript Engines.</p>
 <p>Most of the popular browsers implement their own javascript engine</p>
  <p>These days most engines work along similar lines that they use a combination of an interpretor and an compiler</p>
+ 
+ 
+ 
+ ## CLASSES
+ 
+  This takes us to one of the major differences of the two languages, their respective implementations of the Object Oriented model and inheritance.
