@@ -79,4 +79,16 @@ However, neither language can be run on the other's runtime. C# will not run on 
  
  ## CLASSES
  
-  This takes us to one of the major differences of the two languages, their respective implementations of the Object Oriented model and inheritance.
+  While both languages follow the object oriented paradigm they implement them in different ways.
+  Javascript has prototypal inheritance whereas C# uses a more traditional 'classical'(class based) model.
+   
+   
+   ### Javascript
+   
+   Pre ES2015 in order to create an object of a particular type one would use a constructor function - or simply 'constructor'.
+   ```function Person(age, firstname, surname) {   // can pass in initial parameters for instant
+        this.age = age ;             // an object called 'this' is implicitly created and we can assign properties to it
+        this.firstName = firstname ; 
+        this.surName = surname;
+        this.getFullname = function() {              
+            return this.firstName + " " + this.surname;   
